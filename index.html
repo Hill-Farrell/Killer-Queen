@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <met charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Killer Queen</title>
+    <link href = "styles/killer_queen.css" rel = "stylesheet" type = "text/css">
+  </head>
+<body>
+  <div id = "container">
+
+    <canvas id="canvas1"></canvas>
+    <div class = "audio">
+      <img id = "volumeImg" src = "imgs/volumeSym.png">
+      <button class = "button" id = "high">High</button>
+      <button class = "button" id = "mid">Mid</button>
+      <button class = "button" id = "mute">Mute</button>
+    </div>
+
+    <img id = "life" src = "imgs/life.png">
+    <img id="playerImg" src="imgs/queen.png">
+    <img id="backgroundImg" src="imgs/background.png">
+    <img id="groundEnemyImg" src="imgs/enemy.png">
+    <img id="coin" src="imgs/coin.png">
+    <img id="cake" src="imgs/cake.png">
+
+    <div id = "startDiv">
+      <img id = "start" src = "imgs/start.png">
+    </div>
+
+
+    <audio id = "mainAudio">
+      <source src = "imgs/mainMusic.mp3">
+    </audio>
+
+    <audio id = "coinAudio"><source src = "imgs/coinSound.mp4"></audio>
+    <audio id = "jumpAudio"><source src = "imgs/jump.mp3"></audio>
+    <audio id = "healthAudio"><source src = "imgs/health.mp3"></audio>
+    <audio id = "damageAudio"><source src = "imgs/damage.mp3"></audio>
+    <audio id = "swordAudio"><source src = "imgs/swordSwing.mp4"></audio>
+    <audio id = "gameOverAudio"><source src = "imgs/gameOverAudio.mp4"></audio>
+  
+  </div>
+
+    <script type= "module" src = "scripts/killer_queen.js"></script>
+
+</body>
+
+</html>
