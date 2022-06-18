@@ -1,4 +1,6 @@
 # Killer-Queen
+*CONTAINS MUSIC & SOUND EFFECTS SO CHECK YOUR VOLUME! :)*
+
 A Simple Side Scroller.
 
 Controls:
